@@ -1312,7 +1312,16 @@ h2{
     display: flex;
 }
 header#pq-header .pq-bottom-header .navbar .navbar-brand {
-    line-height: 60px;
+    line-height: 80px;
+}
+.pq-copyright-footer{
+  padding-bottom: 60px!important;
+}
+.pq-copyright{
+    line-height: 26px;
+}
+.pq-clientbox {
+    padding: 0px;
 }
 }
 @media (max-width: 575px) {
