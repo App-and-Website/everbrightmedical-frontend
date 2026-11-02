@@ -2095,3 +2095,178 @@ header#pq-header .pq-bottom-header .navbar .navbar-brand {
         padding: 15px;
     }
 }
+
+
+
+.ebm-thankyou-section {
+    padding: 75px 0;
+    background: #f3f7f4;
+}
+
+.ebm-thankyou-card {
+    position: relative;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 55px 45px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #e8eee9;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(16, 75, 54, 0.07);
+}
+
+.ebm-thankyou-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #104b36, #68a783);
+}
+
+.ebm-thankyou-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 22px;
+    color: #fff;
+    background: linear-gradient(145deg, #176747, #104b36);
+    border-radius: 50%;
+    font-size: 30px;
+    box-shadow: 0 6px 18px rgba(16, 75, 54, 0.2);
+}
+
+.ebm-thankyou-label {
+    display: block;
+    color: #438264;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.ebm-thankyou-card h1 {
+    color: #183c2b;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 14px;
+}
+
+.ebm-thankyou-message {
+    max-width: 540px;
+    margin: 0 auto;
+    color: #444;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.ebm-thankyou-note i {
+    color: #398260;
+    margin-top: 2px;
+}
+
+.ebm-thankyou-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.ebm-thankyou-home,
+.ebm-thankyou-call {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    min-height: 44px;
+    padding: 11px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: all 0.25s ease;
+}
+
+.ebm-thankyou-home {
+    color: #fff !important;
+    background: #104b36;
+    border: 1px solid #104b36;
+}
+
+.ebm-thankyou-home:hover {
+    color: #fff !important;
+    background: #0b3828;
+}
+
+.ebm-thankyou-call {
+    color: #104b36 !important;
+    background: #fff;
+    border: 1px solid #cbdacf;
+}
+
+.ebm-thankyou-call:hover {
+    color: #104b36 !important;
+    background: #f1f7f2;
+    border-color: #104b36;
+}
+
+@media (max-width: 767px) {
+    .ebm-thankyou-section {
+        padding: 50px 0;
+    }
+
+    .ebm-thankyou-card {
+        padding: 45px 25px;
+    }
+
+    .ebm-thankyou-card h1 {
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ebm-thankyou-card {
+        padding: 38px 18px;
+    }
+
+    .ebm-thankyou-icon {
+        width: 66px;
+        height: 66px;
+        font-size: 25px;
+    }
+
+    .ebm-thankyou-card h1 {
+        font-size: 28px;
+    }
+
+    .ebm-thankyou-message {
+        font-size: 14px;
+    }
+
+    .ebm-thankyou-actions {
+        flex-direction: column;
+    }
+
+    .ebm-thankyou-home,
+    .ebm-thankyou-call {
+        width: 100%;
+    }
+}
+
+
+.pq-blog-info p{
+    line-height: 24px;
+    color: #444;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+.pq-blog-post .pq-button {
+       padding: 5px 30px;
+}
