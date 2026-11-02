@@ -1651,5 +1651,447 @@ header#pq-header .pq-bottom-header .navbar .navbar-brand {
 }
 
 
+.pq-contact-box-description{
+    font-weight: 500;
+}
+.pq-contact-box {
+    padding: 20px;
+}
+.pq-contact-box-info {
+    margin-top: 10px;
+}
+.mapseccontact{
+    height: 420px;
+    margin-bottom: 50px;
+}
+.mapseccontact iframe{
+    border: 2px solid #f3f5f7;
+    border-radius: 10px;
+}
 
 
+
+/* Appointment Section */
+.ebm-appointment-section {
+    background: #f3f7f4;
+    padding-top: 75px !important;
+    padding-bottom: 75px !important;
+}
+
+.ebm-appointment-row {
+    row-gap: 0;
+}
+
+/* Left Information Panel */
+.ebm-appt-info {
+    height: 100%;
+    padding: 42px 38px;
+    color: #fff;
+    background: linear-gradient(145deg, #104b36 0%, #0b3d2c 65%, #082f24 100%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ebm-appt-eyebrow {
+    display: inline-block;
+    color: #c4e2d0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.ebm-appt-info h2 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0 0 17px;
+}
+
+.ebm-appt-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    line-height: 1.85;
+    margin: 0;
+}
+
+.ebm-appt-divider {
+    width: 55px;
+    height: 3px;
+    border-radius: 5px;
+    background: #b7ddc6;
+    margin: 27px 0 24px;
+}
+
+.ebm-appt-info h3 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 0 22px;
+}
+
+/* Appointment Steps */
+.ebm-appt-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.ebm-appt-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.ebm-appt-step-number {
+    flex: 0 0 37px;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #104b36;
+    background: #d7ebdf;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.ebm-appt-step h4 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 1px 0 5px;
+}
+
+.ebm-appt-step p {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 13px;
+    line-height: 1.65;
+    margin: 0;
+}
+
+/* Contact Information */
+.ebm-appt-contact {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px;
+    margin-top: auto;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+}
+
+.ebm-appt-contact-icon {
+    width: 43px;
+    height: 43px;
+    flex: 0 0 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #104b36;
+    background: #d7ebdf;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.ebm-appt-contact span {
+    display: block;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.ebm-appt-contact a {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ebm-appt-contact a:hover {
+    color: #d7ebdf;
+}
+
+.ebm-appt-hours {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    margin-top: 17px;
+}
+
+.ebm-appt-hours i {
+    color: #c4e2d0;
+}
+
+/* Right Form Panel */
+.ebm-appt-form-card {
+    height: 100%;
+    padding: 37px 35px 25px;
+    background: #fff;
+    border: 1px solid #e7ede8;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(20, 58, 39, 0.06);
+}
+
+.ebm-appt-form-heading {
+    margin-bottom: 15px;
+}
+
+.ebm-appt-form-heading > span {
+    color: #398260;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+}
+
+.ebm-appt-form-heading h2 {
+    color: #183b2b;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 8px 0 9px;
+}
+
+.ebm-appt-form-heading p {
+    color: #718078;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Form Fields */
+.ebm-appt-field {
+    margin-bottom: 18px;
+}
+
+.ebm-appt-field label {
+    display: block;
+    color: #34463b;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.ebm-appt-field label span {
+    color: #d34c4c;
+}
+
+.ebm-appt-field input,
+.ebm-appt-field select,
+.ebm-appt-field textarea {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    color: #34463b;
+    background: #fff;
+    border: 1px solid #dce5de;
+    border-radius: 6px;
+    outline: none;
+    font-family: inherit;
+    font-size: 13px;
+    box-shadow: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.ebm-appt-field select{
+    height: 40px;
+    padding: 0 10px 5px 10px;
+}
+.ebm-appt-field input::placeholder,
+.ebm-appt-field textarea::placeholder {
+    color: #9aa69e;
+}
+
+.ebm-appt-field select {
+    cursor: pointer;
+}
+
+.ebm-appt-field textarea {
+    min-height: 70px;
+    resize: vertical;
+}
+
+.ebm-appt-field input:focus,
+.ebm-appt-field select:focus,
+.ebm-appt-field textarea:focus {
+    border-color: #398260;
+    box-shadow: 0 0 0 3px rgba(57, 130, 96, 0.1);
+}
+
+/* Photo Upload */
+.ebm-appt-upload {
+    margin: 0 0 20px;
+}
+
+.ebm-appt-upload label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #34463b;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.ebm-appt-upload label i {
+    color: #398260;
+    font-size: 19px;
+}
+
+.ebm-appt-upload label small {
+    color: #89958d;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.ebm-appt-upload input {
+    width: 100%;
+    padding: 10px;
+    color: #718078;
+    background: #f8faf8;
+    border: 1px dashed #b9cbbd;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.ebm-appt-upload input::file-selector-button {
+    padding: 7px 12px;
+    margin-right: 10px;
+    color: #104b36;
+    background: #e9f3ec;
+    border: 0;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ebm-appt-upload > small {
+    display: block;
+    color: #89958d;
+    font-size: 11px;
+    margin-top: 7px;
+}
+
+/* Submit Button */
+.ebm-appt-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    width: 100%;
+    min-height: 49px;
+    padding: 12px 20px;
+    color: #fff;
+    background: #104b36;
+    border: 1px solid #104b36;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.ebm-appt-submit:hover {
+    color: #fff;
+    background: #0b3828;
+    border-color: #0b3828;
+}
+
+.ebm-appt-submit i {
+    font-size: 12px;
+    transition: transform 0.25s ease;
+}
+
+.ebm-appt-submit:hover i {
+    transform: translateX(4px);
+}
+
+/* Form Bottom Note */
+.ebm-appt-form-bottom {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 19px;
+    margin-top: 22px;
+    border-top: 1px solid #edf0ed;
+}
+
+.ebm-appt-form-bottom i {
+    color: #398260;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.ebm-appt-form-bottom p {
+    color: #78857d;
+    font-size: 12px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 1199px) {
+    .ebm-appt-info {
+        padding: 35px 30px;
+    }
+
+    .ebm-appt-form-card {
+        padding: 32px 27px 23px;
+    }
+
+    .ebm-appt-info h2 {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ebm-appointment-section {
+        padding-top: 45px !important;
+        padding-bottom: 45px !important;
+    }
+
+    .ebm-appt-info {
+        padding: 32px 25px;
+    }
+
+    .ebm-appt-info h2 {
+        font-size: 27px;
+    }
+
+    .ebm-appt-form-card {
+        padding: 28px 22px 22px;
+    }
+
+    .ebm-appt-form-heading h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 575px) {
+    .ebm-appt-info {
+        padding: 27px 21px;
+    }
+
+    .ebm-appt-info h2 {
+        font-size: 25px;
+    }
+
+    .ebm-appt-form-card {
+        padding: 25px 17px 20px;
+    }
+
+    .ebm-appt-form-heading h2 {
+        font-size: 22px;
+    }
+
+    .ebm-appt-contact {
+        padding: 15px;
+    }
+}
