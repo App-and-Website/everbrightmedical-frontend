@@ -2429,3 +2429,165 @@ header#pq-header .pq-bottom-header .navbar .navbar-brand {
     }
 }
 
+
+
+
+.empi-table{
+    margin-bottom: 0;
+}
+.asidesec{
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+.contentwide{
+    margin-bottom: 0;
+    line-height: 24px;
+    color: #444;
+    margin-top: 10px;
+    font-weight:500;
+}
+#fees-medicare .empi-heading-row {
+    margin-bottom: 15px!important;
+}
+.empi-page{overflow:hidden}
+.empi-section{padding:50px 0;position:relative}
+.empi-section--tint{background:#f4f9fc}
+.empi-section--soft{background:#f2f8f5}
+.empi-section--green{background:#083a29;color:#fff}
+/* 2. Headings and section labels */
+.empi-kicker{display:inline-block;margin:0 0 13px;padding:4px 9px;border-radius:2px;background:#104b36;color:#fff;font-size:10px;line-height:1.5;letter-spacing:.11em;text-transform:uppercase;font-weight:700}
+.empi-title{margin:0 0 13px;max-width:760px;font-size:clamp(29px,3.3vw,42px);font-weight:700;letter-spacing:-.045em;line-height:1.13;color:#16362c}
+.empi-intro{max-width:720px;margin:0;color:#444;font-size:16px;font-weight:500;line-height:24px}
+.empi-section--green .empi-title{color:#fff}
+.empi-section--green .empi-intro{color:#d7e8df}
+.empi-heading-row{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:32px}
+.empi-heading-row .empi-title{margin-bottom:0}
+.empi-heading-row .empi-intro{max-width:540px}
+/* 3. Section navigation */
+.empi-anchor-nav{padding:0 0 24px;background:#fff}
+.empi-anchor-inner{display:flex;gap:8px;flex-wrap:wrap;padding:18px 0;border-bottom:1px solid #dce8e2}
+.empi-anchor-nav a{display:inline-flex;align-items:center;gap:8px;padding:9px 13px;border:1px solid #dce8e2;border-radius:4px;color:#104b36;font-size:12px;font-weight:700;text-decoration:none;transition:background .2s,border .2s}
+.empi-anchor-nav a:hover{background:#f2f8f5;border-color:#9abbaa}
+.empi-anchor-nav a span{font-size:14px}
+/* 4. Buttons and links */
+.empi-btn{display:inline-flex;justify-content:center;align-items:center;gap:9px;min-height:43px;padding:11px 18px;border-radius:30px;background:#104b36;color:#fff;text-decoration:none;font-size:14px;font-weight:700;letter-spacing:.02em;transition:transform .2s,background .2s}
+.empi-btn:hover{background:#083a29;transform:translateY(-1px); color: #fff;}
+.empi-btn--outline{background:transparent;color:#104b36;border:1px solid #b6cfc1}
+.empi-btn--outline:hover{background:#e7f2ec;color:#104b36}
+.empi-btn--white{background:#fff;color:#104b36}
+.empi-btn--white:hover{background:#eaf4ee;color:#104b36}
+.empi-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+/* 5. Cards, grids and feature blocks */
+.empi-card{background:#fff;border:1px solid #dce8e2;border-radius:14px;box-shadow:0 12px 34px rgba(11,62,43,.075)}
+.empi-card-pad{padding:25px}
+.empi-card h3{margin:0 0 8px;font-size:19px;line-height:1.3;letter-spacing:-.02em;font-weight:700}
+.empi-card p{margin:0;color:#536b62;font-size:16px;font-weight:500;line-height:1.75}
+.empi-card p+p{margin-top:12px}
+.empi-grid{display:grid;gap:18px}
+.empi-grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.empi-grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.empi-feature{position:relative;overflow:hidden;padding:24px 24px 25px;border-top:3px solid #104b36}
+.empi-feature-top{display:flex;align-items:center;gap:13px;margin-bottom:17px}
+.empi-icon{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border-radius:10px;background:#eaf4ee;color:#104b36}
+.empi-icon svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+.empi-feature .empi-number{font-size:11px;letter-spacing:.08em;color:#6f8b7d;font-weight:700}
+.empi-list{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:10px}
+.empi-list li{position:relative;padding-left:24px;color:#536b62;font-size:16px;font-weight:500;line-height:1.65}
+.empi-list li:before{content:"✓";position:absolute;left:0;top:2px;width:16px;height:16px;display:grid;place-items:center;border-radius:50%;background:#e8f3ec;color:#104b36;font-size:10px;font-weight:700}
+.empi-callout{display:flex;align-items:flex-start;gap:14px;padding:17px 19px;background:#edf7f1;border-left:3px solid #104b36;border-radius:4px;color:#315b48}
+.empi-callout p{margin:0;font-size:15px;font-weight:500;line-height:1.7}
+.empi-callout strong{color:#104b36}
+.empi-icon-small{flex:0 0 22px;width:22px;height:22px;color:#104b36}
+.empi-icon-small svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+/* 6. Content columns, panels and steps */
+.empi-columns{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);gap:38px;align-items:start}
+.empi-content-stack{display:grid;gap:18px}
+.empi-panel{padding:28px;background:#fff;border:1px solid #dce8e2;border-radius:14px}
+.empi-panel--blue{background:#eaf6fc;border-color:#dcecf3}
+.empi-panel--green{background:#eff7f1;border-color:#d9e9de}
+.empi-panel h3{margin:0 0 10px;font-size:21px;line-height:1.3}
+.empi-panel p{margin:0;color:#536b62;font-size:16px;font-weight:500;line-height:1.75}
+.empi-panel p+p{margin-top:12px}
+.empi-step{display:grid;grid-template-columns:37px 1fr;gap:14px;padding:18px 0;border-bottom:1px solid #dce8e2}
+.empi-step:first-child{padding-top:0}
+.empi-step:last-child{padding-bottom:0;border-bottom:0}
+.empi-step-num{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#104b36;color:#fff;font-size:12px;font-weight:700}
+.empi-step h3{margin:0 0 4px;font-size:17px;line-height:1.4}
+.empi-step p{margin:0;color:#536b62;font-size:16px;font-weight:500;line-height:1.7}
+/* 7. Billing table */
+.empi-table-wrap{overflow-x:auto;border:1px solid #dce8e2;border-radius:10px;background:#fff;box-shadow:0 12px 34px rgba(11,62,43,.075)}
+.empi-table{width:100%;border-collapse:collapse;min-width:550px}
+.empi-table th{padding:13px 17px;text-align:left;background:#104b36;color:#fff;font-size:16px;letter-spacing:.08em;text-transform:uppercase}
+.empi-table td{padding:16px 17px;text-align:left;vertical-align:top;border-bottom:1px solid #dce8e2;font-size:15px;font-weight:500;color:#536b62;line-height:1.65}
+.empi-table td:first-child{color:#16362c;font-weight:700;width:34%}
+.empi-table tr:last-child td{border-bottom:0}
+.empi-billing-status{display:inline-block;margin-bottom:4px;font-size:12px;font-weight:700;color:#104b36}
+.empi-billing-status--check{color:#8a6423}
+.empi-footnote{margin:10px 0 0;color:#70837a;font-size:13px;font-weight:500;line-height:1.6}
+.empi-timeline{padding:26px 28px}
+.empi-timeline .empi-step h3{font-size:18px}
+.empi-quiet{color:#536b62;font-size:16px;font-weight:500}
+/* 8. MyMedicare feature panel */
+.empi-medicare-band{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:30px;align-items:center;padding:34px;border:1px solid #d6e8df;border-radius:14px;background:linear-gradient(115deg,#f0f8f4 0%,#eaf6fc 100%)}
+.empi-medicare-band h3{margin:0 0 10px;font-size:24px;letter-spacing:-.025em;line-height:1.25}
+.empi-medicare-band p{margin:0;color:#536b62;font-size:16px;font-weight:500;line-height:1.75}
+.empi-mymedicare-mark{padding:21px 12px;border-radius:10px;background:#fff;border:1px solid #dce8e2;text-align:center;box-shadow:0 8px 20px rgba(11,62,43,.05);color:#104b36}
+.empi-mymedicare-mark strong{display:block;font-size:23px;line-height:1.15;letter-spacing:-.06em}
+.empi-mymedicare-mark span{display:block;margin-top:5px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+.empi-dark-card{padding:24px;border:1px solid rgba(255,255,255,.17);border-radius:10px;background:rgba(255,255,255,.055)}
+.empi-dark-card h3{margin:0 0 8px;color:#fff;font-size:18px}
+.empi-dark-card p,.empi-dark-card li{color:#d6e7df;font-size:15px;font-weight:500}
+.empi-dark-card p{margin:0;line-height:1.7}
+.empi-dark-card .empi-list li{color:#d6e7df}
+.empi-section--green .empi-kicker{background:rgba(255,255,255,.13)}
+.empi-bottom-note{margin-top:22px;color:#c5ddd1;font-size:13px;font-weight:500;line-height:1.7}
+/* 9. Tablet layout */
+@media(max-width:900px){
+  .empi-section{padding:60px 0}
+  .empi-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .empi-columns{grid-template-columns:1fr;gap:24px}
+  .empi-heading-row{display:block}
+  .empi-heading-row .empi-intro{margin-top:12px}
+}
+/* 10. Mobile layout */
+@media(max-width:620px){
+  body{font-size:16px}
+  .empi-section{padding:48px 0}
+  .empi-title{font-size:31px}
+  .empi-grid-2,.empi-grid-3{grid-template-columns:1fr;gap:13px}
+  .empi-card-pad,.empi-feature{padding:21px}
+  .empi-anchor-nav{padding-bottom:14px}
+  .empi-anchor-inner{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;padding:13px 0}
+  .empi-anchor-nav a{justify-content:center;padding:9px 7px;font-size:11px;text-align:center}
+  .empi-medicare-band{grid-template-columns:1fr;padding:23px;gap:20px}
+  .empi-mymedicare-mark{justify-self:start;min-width:150px}
+  .empi-panel{padding:15px}
+  .empi-actions{flex-direction:column;align-items:stretch}
+  .empi-btn{width:100%}
+  .empi-callout{padding:15px}
+  .empi-table th,.empi-table td{padding:13px}
+}
+
+/* Final MyMedicare section: white page background with a soft, contained feature panel. */
+#mymedicare-placeholder{display:none}
+#mymedicare{background:#fff}
+.empi-medicare-band--white{
+  background:linear-gradient(115deg,#f5faf7 0%,#eef7fb 100%);
+  border-color:#dce9e3;
+  box-shadow:0 12px 34px rgba(11,62,43,.055);
+}
+#mymedicare .empi-heading-row{margin-bottom:30px}
+#mymedicare .empi-title{color:#16362c}
+#mymedicare .empi-intro{color:#536b62}
+#mymedicare .empi-kicker{background:#104b36;color:#fff}
+#mymedicare .empi-bottom-note{color:#71847b}
+#mymedicare .empi-list li{color:#536b62}
+#mymedicare .empi-medicare-band .empi-btn--outline{background:#fff}
+@media(max-width:620px){
+  #mymedicare .empi-medicare-band{padding:16px}
+  #mymedicare .empi-medicare-band h3{font-size:22px}
+}
+
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
