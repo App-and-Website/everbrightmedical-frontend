@@ -7992,3 +7992,10 @@ Custom Css
 .place .py-130{
   padding: 130px 0;
 }
+.ebm-benefits-heading .pq-section-title{
+    font-family: var(--title-fonts)!important;
+    color: var(--dark-color)!important;
+    font-weight: 600!important;
+    font-size: 42px !important;
+    line-height: 44px!important;
+}

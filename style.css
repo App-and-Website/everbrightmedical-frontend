@@ -2591,3 +2591,318 @@ header#pq-header .pq-bottom-header .navbar .navbar-brand {
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
+
+.secserv p{
+   font-size: 16px;
+   line-height: 26px;
+}
+.pagebrdcm p{
+   color: #eee;
+   max-width: 960px;
+   margin: auto;
+   line-height: 28px;
+   font-weight: 500;
+}
+.pagebrdcm .pq-title {
+    margin: 15px 0!important;
+}
+.brdcmpd{
+    padding: 80px 0!important;
+}
+.brdcmpd .pq-button {
+    margin-top: 20px;
+   background: #000;
+   padding: 8px 20px;
+}
+.brdcmpd .pq-button2 {
+    margin-top: 20px;
+   background: #f3f5f7;
+   padding: 5px 20px;
+}
+.brdcmpd .pq-button2 i{
+   color: #000!important;
+   transform: rotate(120deg);
+   margin-right: 5px;
+}
+.brdcmpd .pq-button2 .pq-button-text{
+   color: #000!important;
+   font-weight: 600!important;
+   font-size: 16px;
+}
+@media(max-width:768px){
+.brdcmpd{
+    padding: 50px 0!important;
+}
+.pagebrdcm p{
+   font-size: 15px;
+   line-height: 24px;
+}
+.secserv p{
+   font-size: 15px;
+   line-height: 24px;
+}
+}
+@media (max-width: 767px) {
+    h1.pq-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+
+/* Antenatal Benefits Section */
+.ebm-antenatal-benefits {
+    padding: 65px 0;
+    background: #f4f9fc;
+}
+
+/* Section Heading */
+.ebm-benefits-heading {
+    max-width: 790px;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+
+.ebm-benefits-subtitle {
+    display: inline-block;
+    color: #398260;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    margin-bottom: 11px;
+}
+
+.ebm-benefits-heading .pq-section-title {
+    color: #104b36;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin: 0 0 13px;
+}
+
+.ebm-benefits-heading .pq-section-description {
+    color: #64766d;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0;
+}
+
+/* Benefits Grid */
+.ebm-benefits-grid {
+    row-gap: 20px;
+}
+
+.ebm-benefit-card {
+    position: relative;
+    height: 100%;
+    min-height: 265px;
+    padding: 26px 22px 29px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #e3ece6;
+    border-radius: 10px;
+    box-shadow: 0 4px 18px rgba(16, 75, 54, 0.045);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.ebm-benefit-card::before {
+    content: "";
+    position: absolute;
+    top: -48px;
+    right: -48px;
+    width: 125px;
+    height: 125px;
+    border: 20px solid #f0f7f2;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: all 0.35s ease;
+}
+
+.ebm-benefit-card:hover {
+    transform: translateY(-5px);
+    border-color: #c4ddcc;
+    box-shadow: 0 11px 28px rgba(16, 75, 54, 0.09);
+}
+
+.ebm-benefit-card:hover::before {
+    transform: scale(1.15);
+    border-color: #e5f1e9;
+}
+
+/* Card Top Design */
+.ebm-benefit-top {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 26px;
+}
+
+.ebm-benefit-label {
+    display: inline-block;
+    color: #398260;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+}
+
+.ebm-benefit-decoration {
+    display: block;
+    width: 32px;
+    height: 3px;
+    flex: 0 0 32px;
+    background: linear-gradient(90deg, #104b36, #8dbba0);
+    border-radius: 5px;
+}
+
+/* Card Content */
+.ebm-benefit-card h3 {
+    position: relative;
+    z-index: 1;
+    color: #183d2d;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.45;
+    margin: 0 0 12px;
+}
+
+.ebm-benefit-card p {
+    position: relative;
+    z-index: 1;
+    color: #687a72;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* Bottom Accent */
+.ebm-benefit-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 22px;
+    width: 38px;
+    height: 3px;
+    background: #b9d9c5;
+    border-radius: 3px 3px 0 0;
+    transition: width 0.3s ease, background 0.3s ease;
+}
+
+.ebm-benefit-card:hover .ebm-benefit-bottom {
+    width: calc(100% - 44px);
+    background: #398260;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .ebm-antenatal-benefits {
+        padding: 55px 0;
+    }
+
+    .ebm-benefits-heading .pq-section-title {
+        font-size: 28px;
+    }
+
+    .ebm-benefit-card {
+        min-height: 245px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+    .ebm-antenatal-benefits {
+        padding: 45px 0;
+    }
+
+    .ebm-benefits-heading {
+        margin-bottom: 27px;
+    }
+
+    .ebm-benefits-heading .pq-section-title {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .ebm-benefits-heading .pq-section-description {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .ebm-benefits-grid {
+        row-gap: 15px;
+    }
+
+    .ebm-benefit-card {
+        min-height: auto;
+        padding: 23px 20px 27px;
+    }
+
+    .ebm-benefit-top {
+        margin-bottom: 22px;
+    }
+
+    .ebm-benefit-card h3 {
+        font-size: 17px;
+        margin-bottom: 9px;
+    }
+
+    .ebm-benefit-card p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+
+.faqservsec{
+    background: #f4f9fc;
+}
+.faqservsec .pq-accordion-box .pq-ad-title{
+    background: #fff!important;
+    color: #222!important;
+}
+.pq-accordion-block .pq-accordion-box.pq-active .pq-ad-title {
+    background: #183d2d!important;
+}
+
+.form_container_home2{
+    box-shadow: none;
+}
+.formsecservpage input, textarea, input.form-control {
+    background: #fff;
+    padding: 0 10px;
+    height: 48px;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+.formsecservpage  textarea  {
+    height: 80px;
+}
+.formsecservpage .pq-button {
+    padding: 8px 30px;
+}
+.servformdiv{
+    background: #f4f9fc;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.formsecservpage p{
+    line-height: 26px;
+}
+@media (max-width: 768px) {
+.formsecservpage{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.formsecservpage .col-xl-6.mt-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+.ebm-benefits-heading .pq-section-title{
+    font-size: 32px !important;
+    line-height: 36px!important;
+}
+}
+
